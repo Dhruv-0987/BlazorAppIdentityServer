@@ -67,6 +67,6 @@ public class MyProfileService : IProfileService
     
     public Task IsActiveAsync(IsActiveContext context)
     {
-        throw new NotImplementedException();
+        return Task.CompletedTask;
     }
 }
